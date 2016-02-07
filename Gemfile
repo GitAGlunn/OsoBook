@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
-
 ruby '2.2.2', :engine => 'jruby', :engine_version => '9.0.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use jdbcsqlite3 as the database for Active Record
-gem 'activerecord-jdbcpostgresql-adapter'
+gem 'activerecord-jdbcsqlite3-adapter'
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -34,5 +33,4 @@ gem 'tzinfo-data'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
 
